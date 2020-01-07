@@ -64,4 +64,4 @@ def predirect_upload():
 """
 app.add_url_rule(rule="/", endpoint="homepage", view_func=predirect_upload)
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8008, debug=False)
+    app.run(host="0.0.0.0", port=5000, debug=False)
